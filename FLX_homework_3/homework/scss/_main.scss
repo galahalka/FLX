@@ -1,0 +1,208 @@
+body {
+    font: $font;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-image: url($header-background-image);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+   
+    section {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    h1 {
+        clear: both;
+        color: $header-h1-color;
+        font-size: 24px;
+        position: relative;
+        top: 50%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .btn {
+        background-color: $dive-now-button-color;
+        color: #fff;
+        display: inline-block;
+        font-size: 15px;
+        padding: 10px 60px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        left: -75px;
+        margin-left: 50%;
+        margin-top: 50vh;
+    }
+
+}
+
+main {
+    padding: 35px 245px;
+    background-color: $main-backgraun-color;
+
+    .toolbar {
+        float: right;
+
+        input {
+            background-color: $main-input-backgraund-color;
+            border: 1px solid $main-input-border-color;
+            color: $main-h1-color;
+            padding: 12px;
+
+            &::-webkit-input-placeholder {
+                color: $main-h1-color;
+            }
+        }
+    }
+
+    h1 {
+        clear: both;
+        color: $main-h1-color;
+        margin: 0;
+        padding: 22px 0 0;
+        text-align: right;
+        text-transform: uppercase;
+    }
+
+    article {
+        background-color: $article-background-color;
+        display: flex;
+        margin-bottom: 20px;
+        padding: 10px;
+
+        img {
+            height: 280px;
+            width: 280px;
+
+            &+div {
+                padding: 0 20px 0 10px;
+            }
+        }
+
+        .post-description {
+            border-bottom: 2px solid $post-description-border-bottom-color;
+            color: $post-description-color;
+            font-size: 12px;
+            padding: 12px;
+        }
+
+        h3 {
+            color: $article-h3-color;
+            text-transform: uppercase;
+            margin: 10px 0 0px;
+        }
+
+        p {
+            margin: 6px;
+        }
+
+    }
+
+    .btn {
+        background-color: $main-btn-background-color;
+        border: none;
+        color: $main-btn-color;
+        float: right;
+        padding: 10px 60px;
+        text-transform: uppercase;
+
+    }
+}
+
+.contact-form {
+    h4 {
+        color: $main-h1-color;
+        float: right;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    form {
+        clear: both;
+        text-align: right;
+
+        fieldset {
+            border: none;
+            border-width: 0;
+            box-sizing: border-box;
+            padding: 26px 5px 0 5px;
+        }
+
+        .fieldset-50 {
+            display: inline-block;
+            width: 50%;
+            margin: 0;
+        }
+
+        label {
+            color: $article-h3-color;
+            display: block;
+        }
+
+        input {
+            background-color: $form-backgraund-color;
+            border: 1px solid $form-border-color;
+            height: 46px;
+            width: 100%;
+        }
+
+        textarea {
+            background-color: $form-backgraund-color;
+            border: 1px solid $form-border-color;
+            width: 100%;
+        }
+    }
+
+    .submit {
+        background-color: $main-btn-background-color;
+        border: none;
+        color: $main-btn-color;
+        float: right;
+        padding: 10px 60px;
+        text-transform: uppercase;
+    }
+
+}
+
+footer {
+    background-color: $main-backgraun-color;
+    color: $main-h1-color;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+
+.logo {
+    float: left;
+
+    img {
+        width: 230px;
+    }
+}
+
+nav {
+    float: right;
+
+    a {
+        border-right: solid 2px;
+        border-color: $nav-button-border-color;
+        color: $main-button-color;
+        display: inline-block;
+        font-weight: bold;
+        font-size: $nav-button-font-size;
+        padding: 15px 116px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,148 @@
+body {
+  font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  margin: 0; }
+
+img {
+  max-width: 100%; }
+
+header {
+  background-image: url("../img/header_background_v2.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+  header section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0; }
+  header h1 {
+    clear: both;
+    color: #ff5722;
+    font-size: 24px;
+    position: relative;
+    top: 50%;
+    text-align: center;
+    text-transform: uppercase; }
+  header .btn {
+    background-color: #0409a8;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 60px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    left: -75px;
+    margin-left: 50%;
+    margin-top: 50vh; }
+
+main {
+  padding: 35px 245px;
+  background-color: #efefef; }
+  main .toolbar {
+    float: right; }
+    main .toolbar input {
+      background-color: #efefef;
+      border: 1px solid #cfd8dc;
+      color: #757575;
+      padding: 12px; }
+      main .toolbar input::-webkit-input-placeholder {
+        color: #757575; }
+  main h1 {
+    clear: both;
+    color: #757575;
+    margin: 0;
+    padding: 22px 0 0;
+    text-align: right;
+    text-transform: uppercase; }
+  main article {
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px; }
+    main article img {
+      height: 280px;
+      width: 280px; }
+      main article img + div {
+        padding: 0 20px 0 10px; }
+    main article .post-description {
+      border-bottom: 2px solid #cfd8dc;
+      color: #bdbdbd;
+      font-size: 12px;
+      padding: 12px; }
+    main article h3 {
+      color: #607d8b;
+      text-transform: uppercase;
+      margin: 10px 0 0px; }
+    main article p {
+      margin: 6px; }
+  main .btn {
+    background-color: #0401ac;
+    border: none;
+    color: #fff;
+    float: right;
+    padding: 10px 60px;
+    text-transform: uppercase; }
+
+.contact-form h4 {
+  color: #757575;
+  float: right;
+  margin: 0;
+  text-transform: uppercase; }
+.contact-form form {
+  clear: both;
+  text-align: right; }
+  .contact-form form fieldset {
+    border: none;
+    border-width: 0;
+    box-sizing: border-box;
+    padding: 26px 5px 0 5px; }
+  .contact-form form .fieldset-50 {
+    display: inline-block;
+    width: 50%;
+    margin: 0; }
+  .contact-form form label {
+    color: #607d8b;
+    display: block; }
+  .contact-form form input {
+    background-color: #efefef;
+    border: 1px solid #cfd8dc;
+    height: 46px;
+    width: 100%; }
+  .contact-form form textarea {
+    background-color: #efefef;
+    border: 1px solid #cfd8dc;
+    width: 100%; }
+.contact-form .submit {
+  background-color: #0401ac;
+  border: none;
+  color: #fff;
+  float: right;
+  padding: 10px 60px;
+  text-transform: uppercase; }
+
+footer {
+  background-color: #efefef;
+  color: #757575;
+  font-size: 14px;
+  padding: 14px 16px; }
+
+.logo {
+  float: left; }
+  .logo img {
+    width: 230px; }
+
+nav {
+  float: right; }
+  nav a {
+    border-right: solid 2px;
+    border-color: #fff;
+    color: #ff5722;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 116px;
+    text-decoration: none;
+    text-transform: uppercase; }
